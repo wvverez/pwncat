@@ -79,6 +79,8 @@ go build -o pwncat cmd/pwncat/main.go
 
 Do not use it against systems you do not own or have explicit permission to test.
 
+[![Star History Chart](https://api.star-history.com/svg?repos=wvverez/pwncat&type=Date)](https://www.star-history.com/#wvverez/pwncat&Date)
+
 ## 🤝 Contributions
 
 A brief **thank you** to everyone who contributed their little piece to this project :)
