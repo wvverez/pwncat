@@ -74,7 +74,7 @@ go build -o pwncat cmd/pwncat/main.go
 
 ## Disclaimer
 
-> [!IMPORTANT]
+> [!CAUTION]
 > This project is provided for **ethical, educational, and authorized security testing only**.
 
 Do not use it against systems you do not own or have explicit permission to test.
