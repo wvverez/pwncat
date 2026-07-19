@@ -13,9 +13,10 @@
 
 </div>
 
+
 <div align="center">
 
-<sub>Made with ❤️ by Wvverez</sub>
+Made with ♥ by wvverez 
 
 </div>
 
