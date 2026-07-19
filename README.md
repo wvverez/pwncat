@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/pwncat.png" width="100%" alt="pwncat">
+  <img src="./docs/pwncat.png" width="50%" alt="pwncat">
 </p>
 
 <h1 align="center">pwncat // Web Fuzzing Tool</h1>
