@@ -79,7 +79,6 @@ go build -o pwncat cmd/pwncat/main.go
 
 Do not use it against systems you do not own or have explicit permission to test.
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=wvverez"/>
 
 ## 🤝 Contributions
 
