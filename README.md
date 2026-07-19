@@ -62,6 +62,10 @@ go build -o pwncat cmd/pwncat/main.go
   <img src="./docs/pwncat-demo.gif" alt="pwncat demo" width="800">
 </p>
 
+> [!NOTE]
+> This project is provided for **ethical, educational, and authorized security testing only**.
+> Do not use it against systems you do not own or have explicit permission to test.
+
 ## 🤝 Contributions
 
 <a href="https://github.com/wvverez1">
