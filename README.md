@@ -15,7 +15,11 @@
 
 ---
 
-**pwncat** is a modern, high-performance web fuzzing tool written in Go, designed for professional penetration testing and security research. It allows security professionals to systematically discover hidden directories, files, subdomains, and parameters on web applications through automated HTTP requests. This project is licensed under the MIT License, see the [LICENSE](https://github.com/wvverez/pwncat/blob/main/LICENSE) file for details.
+**pwncat** is a modern, high-performance web fuzzing tool written in [Go](https://go.dev/), designed for professional [penetration testing](https://owasp.org/www-community/Penetration_Testing) and security research. It enables security professionals to systematically discover hidden directories, files, subdomains, and parameters on web applications through automated [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) requests.
+
+For installation instructions, usage examples, and available options, see the [Documentation](https://github.com/wvverez/pwncat#readme). If you encounter a bug or would like to request a new feature, please open an [Issue](https://github.com/wvverez/pwncat/issues). Contributions are welcome through [Pull Requests](https://github.com/wvverez/pwncat/pulls).
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). For the full license text, see the [LICENSE](https://github.com/wvverez/pwncat/blob/main/LICENSE) file.
 
 
 ## 👉🏼 Way to Install
