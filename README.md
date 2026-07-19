@@ -76,6 +76,10 @@ go build -o pwncat cmd/pwncat/main.go
   <img src="https://github.com/wvverez1.png?size=50" width="50" alt="wvverez1" style="border-radius: 50%;">
 </a>
 
+<a href="https://github.com/dherediat97">
+  <img src="https://github.com/dherediat97.png?size=50" width="50" alt="dherediat97" style="border-radius: 50%;">
+</a>
+
 <div align="center">
 
 <sub>Made with ❤️ by Wvverez</sub>
