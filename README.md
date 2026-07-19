@@ -14,7 +14,7 @@
 </div>
 
 
-👉🏼 Way to Install
+## 👉🏼 Way to Install
 
 ```sh
 git clone https://github.com/wvverez/pwncat.git && cd pwncat
