@@ -83,9 +83,6 @@ Do not use it against systems you do not own or have explicit permission to test
 
 A brief **acknowledgment** of everyone who collaborated on this project :)
 
-<a href="https://github.com/wvverez1">
-  <img src="https://github.com/wvverez1.png?size=50" width="50" alt="wvverez1" style="border-radius: 50%;">
-</a>
 
 <a href="https://github.com/dherediat97">
   <img src="https://github.com/dherediat97.png?size=50" width="50" alt="dherediat97" style="border-radius: 50%;">
