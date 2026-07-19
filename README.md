@@ -23,6 +23,7 @@
 ```sh
 git clone https://github.com/wvverez/pwncat.git && cd pwncat
 go build -o pwncat cmd/pwncat/main.go
+./pwncat <SNIP> <SNIP>
 ```
 
 ## 📋 Parameter Reference
