@@ -13,6 +13,8 @@
 
 </div>
 
+**pwncat** is a modern, high-performance web fuzzing tool written in Go, designed for professional penetration testing and security research. It allows security professionals to systematically discover hidden directories, files, subdomains, and parameters on web applications through automated HTTP requests. This project is licensed under the MIT License, see the [LICENSE](https://github.com/wvverez/pwncat/blob/main/LICENSE) file for details.
+
 
 ## 👉🏼 Way to Install
 
@@ -21,7 +23,41 @@ git clone https://github.com/wvverez/pwncat.git && cd pwncat
 go build -o pwncat cmd/pwncat/main.go
 ```
 
+## 📋 Parameter Reference
 
+| Parameter | Shorthand | Value | Description | Example |
+|-----------|-----------|-------|-------------|---------|
+| `--url` | `-u` | URL | Target URL with `PWN` as placeholder | `-u "http://example.com/PWN"` |
+| `--wordlist` | `-w` | Path or spec | Wordlist file path or range specification | `-w wordlists/common.txt` or `-w "range:1-100"` |
+| `--method` | `-X` | GET/POST/PUT/etc | HTTP method to use | `-X POST` |
+| `--threads` | `-t` | Number | Number of concurrent workers | `-t 50` |
+| `--rate` | `-r` | Number | Requests per second (0 = unlimited) | `-r 100` |
+| `--timeout` | `-to` | Duration | Request timeout duration | `-to 10s` |
+| `--retry` | `-re` | Number | Retry attempts on error | `-re 3` |
+| `--delay` | `-dl` | Duration | Delay between requests | `-dl 100ms` |
+| `--status` | `-s` | HTTP codes (comma-separated) | Status codes to match | `-s 200,301,302` |
+| `--exclude` | `-e` | HTTP codes (comma-separated) | Status codes to exclude | `-e 404,500` |
+| `--size-match` | `-sm` | Min-Max | Response size range to match | `-sm 100-2000` |
+| `--exclude-size` | `-ex` | Min-Max | Response size range to exclude | `-ex 0-100` |
+| `--regex` | `-rg` | Regex pattern | Regex pattern to match in response | `-rg "admin\|login"` |
+| `--regex-exclude` | `-rx` | Regex pattern | Regex pattern to exclude | `-rx "error\|notfound"` |
+| `--output` | `-o` | File path | Output file for results | `-o results.json` |
+| `--format` | `-f` | json/csv/html | Output format | `-f json` |
+| `--no-color` | `-nc` | Flag | Disable colored output | `-nc` |
+| `--verbose` | `-v` | Flag | Enable verbose mode | `-v` |
+| `--debug-log` | `-log` | File path | Debug log file | `-log debug.log` |
+| `--config` | `-cfg` | File path | JSON/YAML configuration file | `-cfg config.json` |
+| `--replay` | `-rp` | URL | Replay matched requests to this URL | `-rp http://localhost:8080` |
+| `--cert` | - | File path | TLS certificate file | `--cert cert.pem` |
+| `--key` | - | File path | TLS private key file | `--key key.pem` |
+| `--insecure` | `-k` | Flag | Skip TLS verification | `-k` |
+| `--version` | - | Flag | Show version information | `--version` |
+
+## 🤝 Contributions
+
+<a href="https://github.com/wvverez1">
+  <img src="https://github.com/wvverez1.png?size=50" width="50" alt="wvverez1" style="border-radius: 50%;">
+</a>
 
 <div align="center">
 
