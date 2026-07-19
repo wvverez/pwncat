@@ -81,7 +81,7 @@ Do not use it against systems you do not own or have explicit permission to test
 
 ## 🤝 Contributions
 
-A brief thank you to everyone who contributed their little piece to this project :)
+A brief **thank you** to everyone who contributed their little piece to this project :)
 
 
 <a href="https://github.com/dherediat97">
