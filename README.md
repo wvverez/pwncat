@@ -12,3 +12,19 @@
 <a href="https://github.com/wvverez/pwncat/blob/main/LICENSE"><img src="https://img.shields.io/github/license/wvverez/pwncat?style=for-the-badge&logo=open-source-initiative&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="license"></a>&nbsp;&nbsp;
 
 </div>
+
+
+👉🏼 Way to Install
+
+```sh
+git clone https://github.com/wvverez/pwncat.git && cd pwncat
+go build -o pwncat cmd/pwncat/main.go
+```
+
+
+
+<div align="center">
+
+<sub>Made with ❤️ by Wvverez</sub>
+
+</div>
