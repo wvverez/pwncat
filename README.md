@@ -72,6 +72,8 @@ go build -o pwncat cmd/pwncat/main.go
   <img src="./docs/pwncat-demo.gif" alt="pwncat demo" width="800">
 </p>
 
+## Disclaimer
+
 > [!NOTE]
 > This project is provided for **ethical, educational, and authorized security testing only**.
 
