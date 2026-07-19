@@ -55,6 +55,12 @@ go build -o pwncat cmd/pwncat/main.go
 | `--insecure` | `-k` | Flag | Skip TLS verification | `-k` |
 | `--version` | - | Flag | Show version information | `--version` |
 
+## Basic directory fuzzing example
+
+<p align="center">
+  <img src="./docs/pwncat-demo.gif" alt="pwncat demo" width="800">
+</p>
+
 ## 🤝 Contributions
 
 <a href="https://github.com/wvverez1">
