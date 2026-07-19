@@ -79,7 +79,9 @@ go build -o pwncat cmd/pwncat/main.go
 
 Do not use it against systems you do not own or have explicit permission to test.
 
-[![Star History](https://api.star-history.com/svg?repos=wvverez/pwncat&type=Date)](https://www.star-history.com/#wvverez/pwncat&Date)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=wvverez&repo=pwncat&theme=github_dark&hide_border=true">
+</p>
 
 ## 🤝 Contributions
 
