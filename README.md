@@ -79,9 +79,7 @@ go build -o pwncat cmd/pwncat/main.go
 
 Do not use it against systems you do not own or have explicit permission to test.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=wvverez&repo=pwncat&theme=github_dark&hide_border=true">
-</p>
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=wvverez"/>
 
 ## 🤝 Contributions
 
