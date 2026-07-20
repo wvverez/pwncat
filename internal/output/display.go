@@ -77,20 +77,19 @@ func (d *Display) Result(r Result) {
 		input = input[:27] + "..."
 	}
 
-	// Limpiar línea de progreso
-	fmt.Printf("\r%s\n", strings.Repeat(" ", 80))
+	// Limpiar línea de progreso SIN salto de línea extra
+	fmt.Printf("\r%s", strings.Repeat(" ", 80))
 
 	if d.cfg.NoColor {
-		fmt.Printf("🐱 PWN -> %-25s [Status: %s, Bytes: %d]\n", input, status, r.Response.Size)
+		fmt.Printf("\r🐱 PWN -> %-25s [Status: %s, Bytes: %d]\n", input, status, r.Response.Size)
 	} else {
-		fmt.Printf("🐱 PWN -> %-25s [Status: %s, Bytes: %d]\n", input, color(status), r.Response.Size)
+		fmt.Printf("\r🐱 PWN -> %-25s [Status: %s, Bytes: %d]\n", input, color(status), r.Response.Size)
 	}
 }
 
 func (d *Display) Progress(s *Stats) {
 	elapsed := time.Since(s.StartTime)
 	rate := float64(s.Total) / elapsed.Seconds()
-	// Añadir espacios al final para limpiar
 	fmt.Printf("\r[%d req] %d matches | %d errors | %.1f req/s    ",
 		s.Total, s.Matched, s.Errors, rate)
 }
