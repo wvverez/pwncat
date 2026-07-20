@@ -70,7 +70,7 @@ go build -o pwncat cmd/pwncat/main.go
 ## Basic directory fuzzing example
 
 <p align="center">
-  <img src="./docs/pwncat-demo.gif" alt="pwncat demo" width="800">
+  <img src="./docs/pwncat.gif" alt="pwncat demo" width="800">
 </p>
 
 ## Disclaimer
