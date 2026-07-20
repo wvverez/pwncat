@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-const Version = "1.0.0"
+const Version = "1.0.1"
 
 type Config struct {
 	// Objetivo
