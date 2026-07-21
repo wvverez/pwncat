@@ -26,6 +26,20 @@ Made with ♥ by wvverez
 
 For installation instructions, usage examples, and available options, see the [Documentation](https://github.com/wvverez/pwncat#readme). If you encounter a bug or would like to request a new feature, please open an [Issue](https://github.com/wvverez/pwncat/issues). Contributions are welcome through [Pull Requests](https://github.com/wvverez/pwncat/pulls).
 
+
+## 🎯 Use Cases
+
+**pwncat** can be used as part of an authorized security testing workflow for tasks such as:
+
+- Discovering hidden web directories and files.
+- Enumerating accessible application endpoints.
+- Identifying potentially exposed resources.
+- Performing subdomain discovery.
+- Fuzzing URL paths and parameters.
+- Mapping the attack surface of web applications.
+- Supporting reconnaissance and enumeration phases during penetration tests.
+- Conducting security research in controlled and authorized environments.
+
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). For the full license text, see the [LICENSE](https://github.com/wvverez/pwncat/blob/main/LICENSE) file.
 
 
