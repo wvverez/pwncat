@@ -26,6 +26,38 @@ Made with ♥ by wvverez
 
 For installation instructions, usage examples, and available options, see the [Documentation](https://github.com/wvverez/pwncat#readme). If you encounter a bug or would like to request a new feature, please open an [Issue](https://github.com/wvverez/pwncat/issues). Contributions are welcome through [Pull Requests](https://github.com/wvverez/pwncat/pulls).
 
+## 🏗️ Tree Arquitecture
+
+```sh
+pwncat/
+├── cmd/
+│   └── pwncat/
+│       └── main.go
+├── internal/
+│   ├── config/
+│   │   ├── config.go
+│   │   └── flags.go
+│   ├── engine/
+│   │   ├── engine.go
+│   │   └── worker.go
+│   ├── filter/
+│   │   ├── excluder.go
+│   │   └── matcher.go
+│   ├── http/
+│   │   ├── client.go
+│   │   ├── request.go
+│   │   └── response.go
+│   ├── input/
+│   │   └── provider.go
+│   └── output/
+│       └── display.go
+├── pkg/
+│   └── utils/
+│       └── color.go
+├── wordlists/
+│   └── common.txt
+├── go.mod
+```
 
 ## 🎯 Use Cases
 
