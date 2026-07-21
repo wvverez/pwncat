@@ -94,6 +94,15 @@ go build -o pwncat cmd/pwncat/main.go
 
 Do not use it against systems you do not own or have explicit permission to test.
 
+## 📋 To-Do List
+
+- [ ] Exit automatically when the wordlist is fully processed.
+- [x] Improve and redesign the ASCII art.
+- [ ] Add line-related parameters and configuration options.
+- [ ] Fix unwanted line breaks in the output.
+- [x] Add response size in bytes information to the output.
+- [x] Add an option to disable status code colors.
+
 
 ## 🤝 Contributions
 
